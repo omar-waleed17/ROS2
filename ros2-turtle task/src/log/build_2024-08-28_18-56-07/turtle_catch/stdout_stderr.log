@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing turtle_catch.egg-info/PKG-INFO
+writing dependency_links to turtle_catch.egg-info/dependency_links.txt
+writing entry points to turtle_catch.egg-info/entry_points.txt
+writing requirements to turtle_catch.egg-info/requires.txt
+writing top-level names to turtle_catch.egg-info/top_level.txt
+reading manifest file 'turtle_catch.egg-info/SOURCES.txt'
+writing manifest file 'turtle_catch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages/turtle-catch.egg-link (link to .)
+Installing collision_detection script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+
+Installed /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch
+running symlink_data
+symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/resource/turtle_catch -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/ament_index/resource_index/packages
+symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/package.xml -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch

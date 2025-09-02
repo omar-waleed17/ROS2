@@ -1,0 +1,26 @@
+[1.137s] Invoking command in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turtle_catch build --build-base /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build install --record /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/install.log --single-version-externally-managed install_data
+[1.609s] running egg_info
+[1.610s] writing build/turtle_catch/turtle_catch.egg-info/PKG-INFO
+[1.610s] writing dependency_links to build/turtle_catch/turtle_catch.egg-info/dependency_links.txt
+[1.611s] writing entry points to build/turtle_catch/turtle_catch.egg-info/entry_points.txt
+[1.611s] writing requirements to build/turtle_catch/turtle_catch.egg-info/requires.txt
+[1.611s] writing top-level names to build/turtle_catch/turtle_catch.egg-info/top_level.txt
+[1.615s] reading manifest file 'build/turtle_catch/turtle_catch.egg-info/SOURCES.txt'
+[1.616s] writing manifest file 'build/turtle_catch/turtle_catch.egg-info/SOURCES.txt'
+[1.617s] running build
+[1.617s] running build_py
+[1.617s] copying turtle_catch/collision_detection.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch
+[1.617s] running install
+[1.618s] running install_lib
+[1.619s] copying /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch/collision_detection.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch
+[1.620s] byte-compiling /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch/collision_detection.py to collision_detection.cpython-310.pyc
+[1.622s] running install_data
+[1.622s] running install_egg_info
+[1.625s] removing '/home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch-0.0.0-py3.10.egg-info' (and everything under it)
+[1.625s] Copying build/turtle_catch/turtle_catch.egg-info to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch-0.0.0-py3.10.egg-info
+[1.627s] running install_scripts
+[1.668s] Installing collision_detection script to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/turtle_catch
+[1.668s] Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/turtle_catch
+[1.668s] Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/turtle_catch
+[1.669s] writing list of installed files to '/home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/install.log'
+[1.704s] Invoked command in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch' returned '0': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/turtle_catch build --build-base /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build install --record /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/install.log --single-version-externally-managed install_data

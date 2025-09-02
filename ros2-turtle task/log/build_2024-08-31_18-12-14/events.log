@@ -1,0 +1,48 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (turtle_catch) JobQueued: {'identifier': 'turtle_catch', 'dependencies': OrderedDict()}
+[0.001430] (turtle_catch) JobStarted: {'identifier': 'turtle_catch'}
+[0.099549] (-) TimerEvent: {}
+[0.199895] (-) TimerEvent: {}
+[0.300356] (-) TimerEvent: {}
+[0.400721] (-) TimerEvent: {}
+[0.501060] (-) TimerEvent: {}
+[0.601388] (-) TimerEvent: {}
+[0.701807] (-) TimerEvent: {}
+[0.802227] (-) TimerEvent: {}
+[0.902661] (-) TimerEvent: {}
+[1.003012] (-) TimerEvent: {}
+[1.103404] (-) TimerEvent: {}
+[1.203835] (-) TimerEvent: {}
+[1.257675] (turtle_catch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/omarwaleed/turtle_catch_ws/build/turtle_catch/build', '--no-deps', 'symlink_data'], 'cwd': '/home/omarwaleed/turtle_catch_ws/build/turtle_catch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omarwaleed', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/omarwaleed', 'OLDPWD': '/home/omarwaleed', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'SYSTEMD_EXEC_PID': '1664', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/omarwaleed/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'omarwaleed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omarwaleed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omarwaleed-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1639,unix/omarwaleed-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1639', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cd7fdd28_2d9f_4918_b214_54666f132963', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R7XBT2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.95', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/omarwaleed/ros2_ws/install/ultrasonic_subscriber:/home/omarwaleed/ros2_ws/install/ultrasonic_sim:/home/omarwaleed/ros2_ws/install/ultrasonic_publisher:/home/omarwaleed/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omarwaleed/turtle_catch_ws/build/turtle_catch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/omarwaleed/turtle_catch_ws/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/python3.10/site-packages:/home/omarwaleed/ros2_ws/install/ultrasonic_subscriber/lib/python3.10/site-packages:/home/omarwaleed/ros2_ws/install/ultrasonic_sim/lib/python3.10/site-packages:/home/omarwaleed/ros2_ws/install/ultrasonic_publisher/lib/python3.10/site-packages:/home/omarwaleed/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.303948] (-) TimerEvent: {}
+[1.404286] (-) TimerEvent: {}
+[1.504715] (-) TimerEvent: {}
+[1.605094] (-) TimerEvent: {}
+[1.705473] (-) TimerEvent: {}
+[1.805859] (-) TimerEvent: {}
+[1.822306] (turtle_catch) StdoutLine: {'line': b'running develop\n'}
+[1.822986] (turtle_catch) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.823267] (turtle_catch) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.905920] (-) TimerEvent: {}
+[2.006334] (-) TimerEvent: {}
+[2.106748] (-) TimerEvent: {}
+[2.160351] (turtle_catch) StdoutLine: {'line': b'running egg_info\n'}
+[2.160886] (turtle_catch) StdoutLine: {'line': b'writing turtle_catch.egg-info/PKG-INFO\n'}
+[2.161317] (turtle_catch) StdoutLine: {'line': b'writing dependency_links to turtle_catch.egg-info/dependency_links.txt\n'}
+[2.161707] (turtle_catch) StdoutLine: {'line': b'writing entry points to turtle_catch.egg-info/entry_points.txt\n'}
+[2.162011] (turtle_catch) StdoutLine: {'line': b'writing requirements to turtle_catch.egg-info/requires.txt\n'}
+[2.162306] (turtle_catch) StdoutLine: {'line': b'writing top-level names to turtle_catch.egg-info/top_level.txt\n'}
+[2.165761] (turtle_catch) StdoutLine: {'line': b"reading manifest file 'turtle_catch.egg-info/SOURCES.txt'\n"}
+[2.167402] (turtle_catch) StdoutLine: {'line': b"writing manifest file 'turtle_catch.egg-info/SOURCES.txt'\n"}
+[2.169778] (turtle_catch) StdoutLine: {'line': b'running build_ext\n'}
+[2.170438] (turtle_catch) StdoutLine: {'line': b'Creating /home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/python3.10/site-packages/turtle-catch.egg-link (link to .)\n'}
+[2.172179] (turtle_catch) StdoutLine: {'line': b'Installing collision_detection script to /home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/turtle_catch\n'}
+[2.172569] (turtle_catch) StdoutLine: {'line': b'Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/turtle_catch\n'}
+[2.172920] (turtle_catch) StdoutLine: {'line': b'Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/turtle_catch\n'}
+[2.173468] (turtle_catch) StdoutLine: {'line': b'\n'}
+[2.173789] (turtle_catch) StdoutLine: {'line': b'Installed /home/omarwaleed/turtle_catch_ws/build/turtle_catch\n'}
+[2.174054] (turtle_catch) StdoutLine: {'line': b'running symlink_data\n'}
+[2.206897] (-) TimerEvent: {}
+[2.222206] (turtle_catch) CommandEnded: {'returncode': 0}
+[2.245450] (turtle_catch) JobEnded: {'identifier': 'turtle_catch', 'rc': 0}
+[2.246631] (-) EventReactorShutdown: {}

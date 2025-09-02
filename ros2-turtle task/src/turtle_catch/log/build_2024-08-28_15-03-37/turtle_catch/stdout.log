@@ -1,0 +1,39 @@
+running egg_info
+creating build/turtle_catch/turtle_catch.egg-info
+writing build/turtle_catch/turtle_catch.egg-info/PKG-INFO
+writing dependency_links to build/turtle_catch/turtle_catch.egg-info/dependency_links.txt
+writing entry points to build/turtle_catch/turtle_catch.egg-info/entry_points.txt
+writing requirements to build/turtle_catch/turtle_catch.egg-info/requires.txt
+writing top-level names to build/turtle_catch/turtle_catch.egg-info/top_level.txt
+writing manifest file 'build/turtle_catch/turtle_catch.egg-info/SOURCES.txt'
+reading manifest file 'build/turtle_catch/turtle_catch.egg-info/SOURCES.txt'
+writing manifest file 'build/turtle_catch/turtle_catch.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch
+copying turtle_catch/turtle_control.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch
+copying turtle_catch/__init__.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch
+copying turtle_catch/turtle_spawner.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch
+running install
+running install_lib
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch
+copying /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch/turtle_control.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch
+copying /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch/__init__.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch
+copying /home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/build/lib/turtle_catch/turtle_spawner.py -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch
+byte-compiling /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch/turtle_control.py to turtle_control.cpython-310.pyc
+byte-compiling /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+running install_data
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/share/ament_index
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/share/ament_index/resource_index
+creating /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/share/ament_index/resource_index/packages
+copying resource/turtle_catch -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/share/ament_index/resource_index/packages
+copying package.xml -> /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/share/turtle_catch
+running install_egg_info
+Copying build/turtle_catch/turtle_catch.egg-info to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/python3.10/site-packages/turtle_catch-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/turtle_catch
+Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/src/turtle_catch/install/turtle_catch/lib/turtle_catch
+writing list of installed files to '/home/omarwaleed/turtle_catch_ws/src/turtle_catch/build/turtle_catch/install.log'

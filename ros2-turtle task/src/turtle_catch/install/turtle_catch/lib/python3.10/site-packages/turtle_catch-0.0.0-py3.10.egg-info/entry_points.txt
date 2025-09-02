@@ -1,0 +1,5 @@
+[console_scripts]
+collision_detection = turtle_catch.collision_detection:main
+turtle_control = turtle_catch.turtle_control:main
+turtle_spawner = turtle_catch.turtle_spawner:main
+

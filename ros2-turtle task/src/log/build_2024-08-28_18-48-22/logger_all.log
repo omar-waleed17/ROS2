@@ -1,0 +1,111 @@
+[0.539s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.539s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75d79aef3220>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75d79aef2d10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75d79aef2d10>>)
+[2.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.867s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.867s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/omarwaleed/turtle_catch_ws/src'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extensions ['ignore', 'ignore_ament_install']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extension 'ignore'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extension 'ignore_ament_install'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extensions ['colcon_pkg']
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extension 'colcon_pkg'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extensions ['colcon_meta']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extension 'colcon_meta'
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extensions ['ros']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(turtle_catch) by extension 'ros'
+[2.973s] DEBUG:colcon.colcon_core.package_identification:Package 'turtle_catch' with type 'ros.ament_python' and name 'turtle_catch'
+[2.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.973s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_args' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_target' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_clean_cache' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_clean_first' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'cmake_force_configure' from command line to 'False'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'ament_cmake_args' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'catkin_cmake_args' from command line to 'None'
+[3.222s] Level 5:colcon.colcon_core.verb:set package 'turtle_catch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.222s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_catch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch', 'merge_install': False, 'path': '/home/omarwaleed/turtle_catch_ws/src/turtle_catch', 'symlink_install': False, 'test_result_base': None}
+[3.222s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.224s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch' with build type 'ament_python'
+[3.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_catch', 'ament_prefix_path')
+[3.228s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/ament_prefix_path.ps1'
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/ament_prefix_path.dsv'
+[3.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/ament_prefix_path.sh'
+[3.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.581s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch'
+[3.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtle_catch build --build-base /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/build install --record /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/install.log --single-version-externally-managed install_data
+[4.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omarwaleed/turtle_catch_ws/src/turtle_catch' returned '0': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/turtle_catch build --build-base /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/build install --record /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/install.log --single-version-externally-managed install_data
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch' for CMake module files
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch' for CMake config files
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/bin'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/pkgconfig/turtle_catch.pc'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages'
+[4.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_catch', 'pythonpath')
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/pythonpath.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/pythonpath.dsv'
+[4.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/hook/pythonpath.sh'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/bin'
+[4.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_catch)
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/package.ps1'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/package.dsv'
+[4.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/package.sh'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/package.bash'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch/package.zsh'
+[4.382s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/colcon-core/packages/turtle_catch)
+[4.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.383s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.390s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.416s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.416s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarwaleed/turtle_catch_ws/src/install/local_setup.ps1'
+[4.433s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omarwaleed/turtle_catch_ws/src/install/_local_setup_util_ps1.py'
+[4.449s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarwaleed/turtle_catch_ws/src/install/setup.ps1'
+[4.450s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarwaleed/turtle_catch_ws/src/install/local_setup.sh'
+[4.451s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omarwaleed/turtle_catch_ws/src/install/_local_setup_util_sh.py'
+[4.451s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarwaleed/turtle_catch_ws/src/install/setup.sh'
+[4.453s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarwaleed/turtle_catch_ws/src/install/local_setup.bash'
+[4.453s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarwaleed/turtle_catch_ws/src/install/setup.bash'
+[4.455s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarwaleed/turtle_catch_ws/src/install/local_setup.zsh'
+[4.455s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarwaleed/turtle_catch_ws/src/install/setup.zsh'

@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (turtle_catch) JobQueued: {'identifier': 'turtle_catch', 'dependencies': OrderedDict()}
+[0.000399] (turtle_catch) JobStarted: {'identifier': 'turtle_catch'}
+[0.098733] (-) TimerEvent: {}
+[0.199036] (-) TimerEvent: {}
+[0.299385] (-) TimerEvent: {}
+[0.399757] (-) TimerEvent: {}
+[0.500208] (-) TimerEvent: {}
+[0.600663] (-) TimerEvent: {}
+[0.701121] (-) TimerEvent: {}
+[0.801571] (-) TimerEvent: {}
+[0.901940] (-) TimerEvent: {}
+[0.972485] (turtle_catch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omarwaleed', 'LC_TIME': 'ar_EG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/omarwaleed', 'OLDPWD': '/home/omarwaleed/turtle_catch_ws', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_EG.UTF-8', 'SYSTEMD_EXEC_PID': '1688', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/omarwaleed/turtle_catch_ws/src/install', 'LOGNAME': 'omarwaleed', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omarwaleed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omarwaleed-Lenovo-ideapad-330-15IKB:@/tmp/.ICE-unix/1663,unix/omarwaleed-Lenovo-ideapad-330-15IKB:/tmp/.ICE-unix/1663', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/667df5cc_f1b6_4d0e_bee3_53690144b71e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3D0RS2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.002087] (-) TimerEvent: {}
+[1.102437] (-) TimerEvent: {}
+[1.202826] (-) TimerEvent: {}
+[1.303212] (-) TimerEvent: {}
+[1.384851] (turtle_catch) StdoutLine: {'line': b'running develop\n'}
+[1.396091] (turtle_catch) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.396371] (turtle_catch) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.403328] (-) TimerEvent: {}
+[1.503660] (-) TimerEvent: {}
+[1.569351] (turtle_catch) StdoutLine: {'line': b'running egg_info\n'}
+[1.569647] (turtle_catch) StdoutLine: {'line': b'writing turtle_catch.egg-info/PKG-INFO\n'}
+[1.569910] (turtle_catch) StdoutLine: {'line': b'writing dependency_links to turtle_catch.egg-info/dependency_links.txt\n'}
+[1.570205] (turtle_catch) StdoutLine: {'line': b'writing entry points to turtle_catch.egg-info/entry_points.txt\n'}
+[1.570519] (turtle_catch) StdoutLine: {'line': b'writing requirements to turtle_catch.egg-info/requires.txt\n'}
+[1.570827] (turtle_catch) StdoutLine: {'line': b'writing top-level names to turtle_catch.egg-info/top_level.txt\n'}
+[1.573386] (turtle_catch) StdoutLine: {'line': b"reading manifest file 'turtle_catch.egg-info/SOURCES.txt'\n"}
+[1.574746] (turtle_catch) StdoutLine: {'line': b"writing manifest file 'turtle_catch.egg-info/SOURCES.txt'\n"}
+[1.576727] (turtle_catch) StdoutLine: {'line': b'running build_ext\n'}
+[1.577092] (turtle_catch) StdoutLine: {'line': b'Creating /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages/turtle-catch.egg-link (link to .)\n'}
+[1.578549] (turtle_catch) StdoutLine: {'line': b'Installing collision_detection script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch\n'}
+[1.578809] (turtle_catch) StdoutLine: {'line': b'Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch\n'}
+[1.579113] (turtle_catch) StdoutLine: {'line': b'Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch\n'}
+[1.579591] (turtle_catch) StdoutLine: {'line': b'\n'}
+[1.579836] (turtle_catch) StdoutLine: {'line': b'Installed /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch\n'}
+[1.580185] (turtle_catch) StdoutLine: {'line': b'running symlink_data\n'}
+[1.580456] (turtle_catch) StdoutLine: {'line': b'symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/resource/turtle_catch -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/ament_index/resource_index/packages\n'}
+[1.580656] (turtle_catch) StdoutLine: {'line': b'symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/package.xml -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch\n'}
+[1.603821] (-) TimerEvent: {}
+[1.620213] (turtle_catch) CommandEnded: {'returncode': 0}
+[1.640399] (turtle_catch) JobEnded: {'identifier': 'turtle_catch', 'rc': 0}
+[1.641921] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.574s] Invoking command in '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/build --no-deps symlink_data --force
+[0.885s] running develop
+[0.885s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.885s]   warnings.warn(
+[1.183s] running egg_info
+[1.183s] writing turtle_catch.egg-info/PKG-INFO
+[1.183s] writing dependency_links to turtle_catch.egg-info/dependency_links.txt
+[1.184s] writing entry points to turtle_catch.egg-info/entry_points.txt
+[1.184s] writing requirements to turtle_catch.egg-info/requires.txt
+[1.184s] writing top-level names to turtle_catch.egg-info/top_level.txt
+[1.187s] reading manifest file 'turtle_catch.egg-info/SOURCES.txt'
+[1.188s] writing manifest file 'turtle_catch.egg-info/SOURCES.txt'
+[1.191s] running build_ext
+[1.191s] Creating /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages/turtle-catch.egg-link (link to .)
+[1.192s] Installing collision_detection script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+[1.193s] Installing turtle_control script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+[1.193s] Installing turtle_spawner script to /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/turtle_catch
+[1.193s] 
+[1.193s] Installed /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch
+[1.193s] running symlink_data
+[1.194s] symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/resource/turtle_catch -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/ament_index/resource_index/packages
+[1.194s] symbolically linking /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/package.xml -> /home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/share/turtle_catch
+[1.234s] Invoked command in '/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch' returned '0': PYTHONPATH=/home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omarwaleed/turtle_catch_ws/src/install/turtle_catch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/omarwaleed/turtle_catch_ws/src/build/turtle_catch/build --no-deps symlink_data --force

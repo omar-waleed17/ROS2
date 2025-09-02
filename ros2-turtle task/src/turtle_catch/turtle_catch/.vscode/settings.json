@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_subscriber/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_sim/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_publisher/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/omarwaleed/turtle_catch_ws/install/turtle_catch/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_subscriber/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_sim/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/ultrasonic_publisher/lib/python3.10/site-packages",
+        "/home/omarwaleed/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
